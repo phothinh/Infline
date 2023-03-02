@@ -7,9 +7,6 @@ export default defineNuxtConfig({
     configPath: 'tailwind.config',
     exposeConfig: false,
     config: {
-        plugins: [
-            require('@tailwindcss/forms')
-        ],
         content: []
     }
 }
