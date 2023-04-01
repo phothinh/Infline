@@ -1,36 +1,36 @@
 <template>
     <div>
-      <button :class="buttonClass(bgColor, textColor)" class="py-3 px-6 m-2 rounded-lg uppercase">
+      <button :class="buttonClass(bgColor, textColor)" class="py-[1vw] px-[1.5vw] m-2 rounded-lg uppercase">
         {{ buttonText }}
       </button>
     </div>
-  </template>
+</template>
   
-  <script>
+<script>
     export default {
-      name: 'MyButton',
-      props: {
+        name: 'MyButton',
+        props: {
         bgColor: {
-          type: String,
-          default: 'bg-white'
+            type: String,
+            default: 'bg-white'
         },
         textColor: {
-          type: String,
-          default: 'text-black'
+            type: String,
+            default: 'text-black'
         },
         buttonText: {
-          type: String,
-          default: 'Button Text'
+            type: String,
+            default: 'Button Text'
         }
-      },
-      methods: {
+        },
+        methods: {
         buttonClass(bgColor, textColor) {
-          return `${bgColor} ${textColor} text-xs font-integral`
+            return `${bgColor} ${textColor} text-[0.8vw] font-integral`
         }
-      }
+        }
     }
-  </script>
+</script>
   
-  <style scoped>
+<style scoped>
 
-  </style>
+</style>
