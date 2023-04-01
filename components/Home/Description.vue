@@ -13,7 +13,7 @@
                     <img src="@/assets/img/marques/logoSamsung.svg" alt="Samsung"/>
                     <img src="@/assets/img/marques/logoAdidas.svg" alt="Adidas"/> 
                     <img src="@/assets/img/marques/logoGoogle.svg" alt="Google"/>
-                    <img src="@/assets/img/marques/logoKFC.svg" alt="KFC"/>
+                    <img src="@/assets/img/marques/logoKfc.svg" alt="KFC"/>
                 </div>
                 <h2 class="text-center text-[1.5vw] font-poppins text-infline-black font-bold w-[42vw] mt-8">
                     Infline est la plateforme numéro 1 dans la mise en relation entre les influenceurs et les marques en France. Finies les recherches interminables, matchez avec le profil parfait.
