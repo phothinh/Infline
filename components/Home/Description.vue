@@ -9,7 +9,7 @@
             <div class="flex flex-col justify-center items-center mt-[12vw] mb-[24vw]">
                 <div class="flex justify-center items-center w-[7vw] space-x-10 mb-8">
                     <img src="@/assets/img/marques/logoNike.svg" alt="Nike"/>
-                    <img src="@/assets/img/marques/logoBK.svg" alt="BurgerKing"/>
+                    <img src="@/assets/img/marques/logoBk.svg" alt="BurgerKing"/>
                     <img src="@/assets/img/marques/logoSamsung.svg" alt="Samsung"/>
                     <img src="@/assets/img/marques/logoAdidas.svg" alt="Adidas"/> 
                     <img src="@/assets/img/marques/logoGoogle.svg" alt="Google"/>
