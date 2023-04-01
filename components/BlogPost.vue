@@ -1,14 +1,14 @@
 <template>
-    <div class="p-4">
-      <div class="flex items-center">
+    <div>
+      <div class="flex flex-col">
         <div class="mr-2">
-          <p class="text-sm text-gray-600 font-medium">{{ formatDate(date) }}</p>
-          <div class="h-px w-6 bg-gray-300 my-2"></div>
-          <p class="text-base font-medium">{{ description }}</p>
+          <p class="text-sm text-infline-black font-medium">{{ formatDate(date) }}</p>
+          <div class="h-px w-[24vw] bg-infline-black my-2"></div>
+          <p class="text-base font-medium w-[16vw] mb-[0.6vw]">{{ description }}</p>
         </div>
-        <div class="flex-shrink-0">
-          <img :src="'/'+imageUrl" alt="blogpost image">
-        </div>
+
+        <img src="@/assets/img/blog/blog1.svg" alt="blogpost image" class="w-[24vw]">
+
       </div>
     </div>
   </template>
